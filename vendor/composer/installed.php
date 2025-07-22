@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'v12.1.0',
-        'version' => '12.1.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6fb07d55629f98cd465d95f2fb6e72b077ec8ea2',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'barryvdh/laravel-debugbar' => array(
+            'pretty_version' => 'v3.16.0',
+            'version' => '3.16.0.0',
+            'reference' => 'f265cf5e38577d42311f1a90d619bcd3740bea23',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../barryvdh/laravel-debugbar',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'brick/math' => array(
             'pretty_version' => '0.13.1',
             'version' => '0.13.1.0',
@@ -386,9 +395,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v12.1.0',
-            'version' => '12.1.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6fb07d55629f98cd465d95f2fb6e72b077ec8ea2',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -511,6 +520,12 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'maximebf/debugbar' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => 'v2.2.3',
+            ),
+        ),
         'mockery/mockery' => array(
             'pretty_version' => '1.6.12',
             'version' => '1.6.12.0',
@@ -613,6 +628,15 @@
             'reference' => '4f7fd7836c6f332bb2933569e566a0d6c4cbed74',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phar-io/version',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'php-debugbar/php-debugbar' => array(
+            'pretty_version' => 'v2.2.3',
+            'version' => '2.2.3.0',
+            'reference' => '86eb2323a2a9b7eefb1b63ae5737f778f9fc3a4c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-debugbar/php-debugbar',
             'aliases' => array(),
             'dev_requirement' => true,
         ),
